@@ -19,7 +19,7 @@ displayImage(randomImage);
 const displayImage = function (randomImage) {
     const author = randomImage.author;
     const imageAddress = randomImage.download_url;
-    suthorSpan.innerText = author;
+    authorSpan.innerText = author;
     img.src = imageAddress;
     img.dispatchEvent.classList.remove("hide");
     );
